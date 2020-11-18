@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspector-Morse</title>
+    <link rel="stylesheet" href="styles.scss">
+    <link href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@700&family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head> 
+<section class="whole-page">
+<header>
+    <h1>Inspector Morse.. Code Translator</h1>
+</header>
+<body> 
+    <h3>Turn the sound on! 🔊</h3>
+    <audio>
+        <source src="Inspector-Morse-1.mp3" type="audio/mpeg">
+        <source src="click.ogg" type="audio/ogg">
+        </audio>
+        <div id="sounddiv"><bgsound id="sound"></div>
+    <div class="capsule">
+    <img src="morse-pic.jpg" alt="morsepic">
+    <!-- Input -->
+    <form NAME="morsecode">
+        Type in a word or phrase: <input type="text" name="chars" size="28" value="help"> 
+        <!-- Button for translation -->
+        <input type="button" class="button" value="encode">
+        <!--Returned translation-->
+        Translation: <textarea name="codebox" cols="50" rows="11" style="width:70%" wrap="virtual"> </textarea><br />
+        </form>
+        <!-- Translate back to English  -->
+</div>
+<script src="data.js"></script>
+</body>
+</section>
+</html>

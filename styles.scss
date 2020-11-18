@@ -1,0 +1,109 @@
+// Make a stlyish Inspector Morse themed page
+* {
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-kerning: auto; 
+    align-items: center;
+  }
+  .whole-page {
+align-items: center;
+
+  }
+  html {
+    line-height: 1.4;
+    font-weight: 400;
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: lightcoral;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  header  {
+    color: white;
+    padding: 1em;
+    background: indianred;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  h3  {
+    color: white;
+    padding: 1em;
+    background: indianred;
+  } 
+  header h1 {
+    margin: 0;
+  }
+  header nav {
+    display: block;
+    overflow: hidden;
+  }
+  
+  a {
+    outline: none;
+    text-decoration: none;
+  }
+  footer {
+    color: white;
+    padding: 2em;
+    text-align: center;
+  }
+  h1 {
+    margin: 0 0 .5em 0;
+    letter-spacing: -.02em;
+  }
+ .morsecode {
+    font-size: 20pt;
+    font-weight: 00;
+    color: indianred;
+    
+  }
+  div h3 {
+    color: indianred;
+  }
+  div p {
+    color: lightcoral;
+  }
+  main {
+    background: lavenderblush;
+    padding-bottom: 1.5em;
+  }
+  main section {
+    padding: 1.5em;
+    padding-bottom: 0;
+  }
+  .capsule {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid lightpink;
+  }
+ 
+  @media (min-width: 800px) {
+    header,
+    main {
+      overflow: hidden;
+    }
+    
+    main section {
+      width: 60%;
+      padding-right: 0;
+    }
+    header h1 {
+      float: left;
+    }
+    .morsepic {
+align-items: center;
+border-radius: 50px;
+}
+.encode {
+    font-size: 24px;
+    padding: 2rem;
+    background: PaleVioletRed;
+    color: PapayaWhip;
+    border: 2px solid PaleVioletRed;
+    border-radius: 8px;
+  }
+}
